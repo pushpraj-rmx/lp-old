@@ -1,1 +1,1 @@
-# This page has been removed.
+This page has been removed.
