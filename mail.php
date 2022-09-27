@@ -7,7 +7,7 @@
     $message=$_POST['query'];
     $subject=$_POST['product'];
     $country=$_POST['country'];
-    $to="raig72212@gmail.com";
+    $to="info@nidmm.com";
     $txt="Name:-".$name."\n"."Mobile number:-".$phone."\n"."Subject:- ".$subject."\n"."Email:-".$email."\n"."Country:-".$country."\n"."Message:-".$message;
     if(mail($to,"National Institute of Digital Media Marketing",$txt,"From:$email")) {
     echo "<script>alert('Successfully Message sent')</script>";
